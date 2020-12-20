@@ -1,0 +1,78 @@
+<div class="container">
+    <form (ngSubmit)="create()" #registerForm="ngForm">
+        <div class="form-group">
+            <label for="taskid">Task Id</label>
+            <input
+              type="taskid"
+              class="form-control"
+              id="taskid"
+              aria-describedby="emailHelp"
+              name="taskIdp"
+              [(ngModel)]="history.taskId"
+            />
+        </div>
+      <div class="form-group">
+        <label for="userid">User Id</label>
+        <input
+          type="userid"
+          class="form-control"
+          id="userid"
+          aria-describedby="emailHelp"
+          name="userid"
+          [(ngModel)]="history.userId"
+        />
+      </div>
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          name="title"
+          [(ngModel)]="history.title"
+        />
+      </div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <input
+          type="description"
+          class="form-control"
+          id="description"
+          name="description"
+          [(ngModel)]="history.description"
+        />
+      </div>
+      <div class="form-group">
+        <label for="duedate">Duedate</label>
+        <input
+          type="text"
+          class="form-control"
+          id="duedate"
+          name="duedate"
+          [(ngModel)]="history.duedate"
+        />
+      </div>
+      <div class="form-group">
+        <label for="completed">Completed</label>
+        <input
+          type="text"
+          class="form-control"
+          id="completed"
+          name="completed"
+          [(ngModel)]="history.completed"
+        />
+      </div>
+      <div class="form-group">
+        <label for="remarks">Remarks</label>
+        <input
+          type="remarks"
+          class="form-control"
+          id="remarks"
+          name="remarks"
+          [(ngModel)]="history.remarks"
+        />
+      </div>
+
+      <input [routerLink]="['/taskhistories']" type="submit" class="btn btn-primary" value="submit" />
+    </form>
+  </div>

@@ -1,0 +1,44 @@
+<h4>Task History Page</h4>
+<br>
+<div class = 'create'>
+  <button >    
+    <a [routerLink]="['/taskhistories/create']">
+        Create A TaskHistory
+      </a>
+  </button>
+</div>
+
+<br>
+<br>
+<table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">TaskId</th>
+      <th scope="col">UserId</th>
+      <th scope="col">Title</th>
+      <th scope="col">Description</th>
+      <th scope="col">Duedate</th>
+      <th scope="col">Completed</th>
+      <th scope="col">Remarks</th>
+      <th scope="col">CRUD</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let h of histories; index as i">
+      <th scope="row">{{ h.taskId }}</th>
+      <td>
+        <a [routerLink]="['/tasks/user', h.userId]">{{ h.userId }}</a>
+        </td>
+      <td>{{ h.title }}</td>
+      <td>{{ h.description }}</td>
+      <td>{{ h.duedate }}</td>
+      <td>{{ h.completed }}</td>
+      <td>{{ h.remarks }}</td>
+      <td>
+        <a [routerLink]="['/taskhistories/update', h.taskId]">edit &nbsp;</a>
+        |
+        <button class = "delete" (click)="delete(h.taskId)">delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>

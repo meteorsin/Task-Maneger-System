@@ -1,0 +1,32 @@
+<h4>Tasks that are assigned to this user</h4>
+<br>
+<div class = 'create'>
+  
+<table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">title</th>
+      <th scope="col">userId</th>
+      <th scope="col">priority</th>
+      <th scope="col">CRUD</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let task of tasks; index as i">
+      <th scope="row">{{ task.id }}</th>
+      <td>      
+        {{ task.title }}
+      </td>
+      <td>
+        <a [routerLink]="['/tasks/user', task.userId]">{{ task.userId }}</a>
+      </td>
+      <td>{{ task.priority}}</td>
+      <td>      
+        <a [routerLink]="['/tasks/update', task.id]">edit &nbsp;</a>
+          |
+          <button class = "delete" (click)="delete(task.id)">delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
