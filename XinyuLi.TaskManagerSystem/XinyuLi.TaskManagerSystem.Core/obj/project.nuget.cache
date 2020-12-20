@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NT3Bloj/BVIjWjnelKVH6M1YsECpMXF/dICm66loe3ZDThHbvD/Sv8DHKiSBVoTBrgPMB+x53hNYAZPYG1aozw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\59284\\source\\repos\\XinyuLi.TaskManagerSystem\\XinyuLi.TaskManagerSystem.Core\\XinyuLi.TaskManagerSystem.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\59284\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\bin\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Infrastructure.deps.json
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\bin\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Infrastructure.dll
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\bin\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Infrastructure.pdb
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\obj\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Infrastructure.csprojAssemblyReference.cache
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\obj\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\obj\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Infrastructure.AssemblyInfo.cs
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\obj\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\obj\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Infrastructure.dll
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\obj\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Infrastructure.pdb
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\bin\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Core.dll
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\bin\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Core.pdb
+C:\Users\59284\source\repos\XinyuLi.TaskManagerSystem\XinyuLi.TaskManagerSystem.Infrastructure\obj\Debug\netstandard2.1\XinyuLi.TaskManagerSystem.Infrastructure.csproj.CopyComplete
